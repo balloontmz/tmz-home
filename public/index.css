@@ -1,0 +1,151 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+main {
+  background: url('../images/bg.png') no-repeat;
+  background-position: center;
+}
+.main-top {
+  height: 760px;
+  z-index: 1;
+}
+.main-top_left {
+  position: relative;
+}
+.main-top_right {
+  padding: 100px 0 0 40%;
+}
+.text {
+  font-size: 30px;
+  margin-top: 100px;
+}
+.main-bottom {
+  background-color: #B9A15F;
+  color: #826B29;
+  z-index: 2;
+  width: 100%;
+}
+.license {
+  color: #826B29;
+  text-decoration: none;
+}
+
+.descript-img {
+  position: absolute;
+  width: 40%;
+  max-width: 626px;
+  max-height: 940px;
+  object-fit: cover;
+  z-index: 3;
+}
+.contact-text {
+  display: inline-block;
+  font-size: 18px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #826B29;
+}
+.contact-type {
+  margin-top: 10px;
+  max-width: 500px;
+}
+.contact-type_left, .contact-type_right {
+  width: 48%;
+  display: inline-block;
+}
+.contact-type_right {
+  text-decoration: none;
+  line-height: 30px;
+  text-align: left;
+  color: #826B29;
+  position: relative;
+  bottom: 9px;
+}
+.main-bottom_top {
+  padding: 10px 50px 10px 40%;
+}
+.main-bottom_bottom {
+  margin-top: 15px;
+  padding: 12px 0;
+  border-top: 1px solid #AA9353;
+  text-align: center;
+}
+.info  {
+  position: relative;
+  bottom: 10px;
+  word-wrap: break-all;
+}
+.qrcode {
+  font-size: 0;
+  margin-top: 50px;
+  max-width: 600px;
+}
+.ios, .andriod {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+  text-align: center;
+}
+.code-box {
+  width: 240px;
+  height: 240px;
+  background-color: #EFEFEF;
+  border-radius: 20px;
+}
+.code-text {
+  width: 240px;
+  margin-top: 10px;
+}
+@media (max-width: 600px) {
+  .main-top {
+    height: 600px;
+  }
+  .descript-img {
+    display: none;
+  }
+  .logo {
+    width: 80%;
+  }
+  .main-bottom_top, .main-top_right {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .text {
+    font-size: 25px;
+  }
+}
+@media (max-width: 800px) {
+  .contact-type_left,.contact-type_right {
+    width: 100%;
+  }
+  .contact-type_right {
+    margin-top: 5px;
+    margin-left: 37px;
+  }
+}
+@media (max-width: 850px) {
+  .code-box {
+    width: 150px;
+    height: 150px;
+  }
+  .code-text {
+    width: 150px;
+  }
+}
+@media (max-width: 350px) {
+  .code-box {
+    width: 120px;
+    height: 120px;
+  }
+  .code-text {
+    width: 120px;
+  }
+}
+
+.footer {
+  color: #826B29;
+  /* text-decoration: none; */
+}
